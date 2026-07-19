@@ -1,5 +1,8 @@
 # Admin Panel — Painel administrativo (v2.0)
 
+## Purpose
+Define os requisitos do painel administrativo, incluindo gestao de usuarios, correcao humana, analytics, configuracao do sistema e seguranca (2FA, IP allowlist, audit log).
+
 ## Requirements
 
 ### Requirement: App separado em dominio proprio

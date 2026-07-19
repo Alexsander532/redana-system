@@ -1,5 +1,8 @@
 # Payments — Assinaturas e pagamentos via AbacatePay
 
+## Purpose
+Define os requisitos de monetizacao via AbacatePay, incluindo planos de assinatura, checkout, webhooks e gestao de assinaturas.
+
 ## Requirements
 
 ### Requirement: Planos de assinatura

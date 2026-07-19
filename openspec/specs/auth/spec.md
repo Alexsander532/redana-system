@@ -1,5 +1,8 @@
 # Auth — Autenticacao e autorizacao
 
+## Purpose
+Define os requisitos de autenticacao e autorizacao do Redana, incluindo cadastro, login, protecao de rotas e controle de acesso baseado em roles (user/admin).
+
 ## Requirements
 
 ### Requirement: Cadastro de usuario

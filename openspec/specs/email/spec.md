@@ -1,5 +1,8 @@
 # Email — Emails transacionais e broadcast
 
+## Purpose
+Define os requisitos de emails transacionais via Resend e broadcast de emails pelo admin.
+
 ## Requirements
 
 ### Requirement: Emails transacionais via Resend
