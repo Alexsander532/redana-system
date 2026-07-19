@@ -1,5 +1,8 @@
 # System — Arquitetura, seguranca e LGPD
 
+## Purpose
+Define os requisitos de arquitetura do sistema, stack tecnologica, seguranca, LGPD e observabilidade.
+
 ## Requirements
 
 ### Requirement: Monorepo Turborepo + pnpm
@@ -17,6 +20,8 @@ O sistema SHALL usar subdominios: redana.com.br (landing), app.redana.com.br (da
 - **THEN** FastAPI processa, CORS permite Origins: app.redana.com.br, admin.redana.com.br
 
 ### Requirement: Stack tecnologica
+O sistema SHALL utilizar a seguinte stack tecnologica em todas as camadas do monorepo.
+
 | Camada | Tecnologia |
 |---|---|
 | Landing | Astro 5 |
@@ -32,6 +37,10 @@ O sistema SHALL usar subdominios: redana.com.br (landing), app.redana.com.br (da
 | Deploy Front | Vercel |
 | Deploy API | Railway |
 | Monorepo | Turborepo + pnpm |
+
+#### Scenario: Novo desenvolvedor onboard
+- **WHEN** novo dev consulta a documentacao de arquitetura
+- **THEN** stack completa listada no spec.md para referencia
 
 ### Requirement: Seguranca
 O sistema SHALL: todas secrets em env vars (nunca em codigo), CORS restrito por origem, rate limiting (60 req/min por IP, 5 essays/h por user), validacao Pydantic em todos inputs, HMAC verification em webhooks, RLS em todas tabelas com user_id.

@@ -1,5 +1,8 @@
 # Landing Page — Pagina de marketing (Astro)
 
+## Purpose
+Define os requisitos da landing page em Astro, incluindo SEO, GEO, carrossel de depoimentos e secao de precos.
+
 ## Requirements
 
 ### Requirement: Pagina estatica em Astro
