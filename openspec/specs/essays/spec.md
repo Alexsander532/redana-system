@@ -1,5 +1,8 @@
 # Essays — Submissao e correcao de redacoes
 
+## Purpose
+Define os requisitos de submissao de redacoes e correcao por IA, incluindo o motor de correcao com Claude/GPT-4o, controle de custo e dashboard de evolucao.
+
 ## Requirements
 
 ### Requirement: Envio de redacao
